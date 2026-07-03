@@ -136,11 +136,6 @@ Install all dependencies with:
 ```bash
 pip install -r requirements.txt
 ```
-Install all dependencies with:
-
-```bash
-pip install -r requirements.txt
-```
 
 ---
 
