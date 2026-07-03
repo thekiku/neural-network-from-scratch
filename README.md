@@ -80,11 +80,8 @@ The project primarily uses the spiral dataset introduced throughout the book to 
 
 ### Spiral Dataset Visualization
 
-> Replace the placeholder below with a screenshot of the generated spiral dataset.
+<img width="568" height="413" alt="image" src="https://github.com/user-attachments/assets/99c5a473-64ea-454d-8cc2-e92021d2b6e7" />
 
-<p align="center">
-  <img src="images/spiral_dataset.png" width="600">
-</p>
 
 ---
 
@@ -107,11 +104,10 @@ Jupyter Notebook
 ```
 neural-network-from-scratch/
 │
-├── neural_network_from_scratch.ipynb
+├── .gitignore
 ├── README.md
-├── requirements.txt
-└── images/
-    └── spiral_dataset.png
+├── neural.ipynb
+└── requirements.txt
 ```
 
 ---
@@ -121,13 +117,7 @@ neural-network-from-scratch/
 Clone the repository.
 
 ```bash
-git clone https://github.com/yourusername/neural-network-from-scratch.git
-```
-
-Move into the project directory.
-
-```bash
-cd neural-network-from-scratch
+git clone https://github.com/thekiku/neural-network-from-scratch
 ```
 
 Install the required dependencies.
@@ -167,8 +157,6 @@ This implementation closely follows the concepts presented in:
 **Neural Networks from Scratch in Python**
 
 **Authors:** Harrison Kinsley and Daniel Kukieła
-
-The objective was not simply to reproduce the examples, but to implement and understand every major building block involved in constructing and training neural networks from first principles using NumPy.
 
 ---
 
