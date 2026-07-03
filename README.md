@@ -6,73 +6,39 @@ The purpose of this project is to understand how modern neural networks work int
 
 The implementation follows the concepts presented throughout *Neural Networks from Scratch in Python* by Harrison Kinsley and Daniel Kukieła, serving as a complete reference implementation while reinforcing the underlying mathematics and programming involved in deep learning.
 
----
-
 # Features
 
-Fully Connected (Dense) Layers
-
-Forward Propagation
-
-Backpropagation
-
-ReLU Activation
-
-Sigmoid Activation
-
-Linear Activation
-
-Softmax Activation
-
-Categorical Cross-Entropy Loss
-
-Binary Cross-Entropy Loss
-
-Mean Squared Error (MSE)
-
-Mean Absolute Error (MAE)
-
-Combined Softmax and Cross-Entropy Optimization
-
-L1 Regularization
-
-L2 Regularization
-
-Dropout
-
-Stochastic Gradient Descent (SGD)
-
-SGD with Momentum
-
-AdaGrad Optimizer
-
-RMSProp Optimizer
-
-Adam Optimizer
-
-Learning Rate Decay
-
-Binary Classification
-
-Multi-Class Classification
-
-Regression
-
-Accuracy Calculation
-
-Mini-Batch Training
-
-Model Saving
-
-Model Loading
-
-Prediction on Unseen Data
-
-Training and Validation Loops
-
-Data Visualization
-
----
+* Fully Connected (Dense) Layers
+* Forward Propagation
+* Backpropagation
+* ReLU Activation
+* Sigmoid Activation
+* Linear Activation
+* Softmax Activation
+* Categorical Cross-Entropy Loss
+* Binary Cross-Entropy Loss
+* Mean Squared Error (MSE)
+* Mean Absolute Error (MAE)
+* Combined Softmax and Cross-Entropy Optimization
+* L1 Regularization
+* L2 Regularization
+* Dropout
+* Stochastic Gradient Descent (SGD)
+* SGD with Momentum
+* AdaGrad Optimizer
+* RMSProp Optimizer
+* Adam Optimizer
+* Learning Rate Decay
+* Binary Classification
+* Multi-Class Classification
+* Regression
+* Accuracy Calculation
+* Mini-Batch Training
+* Model Saving
+* Model Loading
+* Prediction on Unseen Data
+* Training and Validation Loops
+* Data Visualization
 
 # Dataset
 
@@ -83,21 +49,13 @@ The project primarily uses the spiral dataset introduced throughout the book to 
 <img width="568" height="413" alt="image" src="https://github.com/user-attachments/assets/99c5a473-64ea-454d-8cc2-e92021d2b6e7" />
 
 
----
+# Tech Stack
 
-# Technologies Used
-
-Python
-
-NumPy
-
-Matplotlib
-
-NNFS
-
-Jupyter Notebook
-
----
+* Python
+* NumPy
+* Matplotlib
+* Jupyter Notebook
+* NNFS (dataset generation and utility functions)
 
 # Project Structure
 
@@ -168,14 +126,16 @@ This repository contains a complete NumPy implementation covering the material p
 
 # Requirements
 
-Python 3.10+
+* Python 3.10+
+* NumPy
+* Matplotlib
+* NNFS
 
-NumPy
+Install all dependencies with:
 
-Matplotlib
-
-NNFS
-
+```bash
+pip install -r requirements.txt
+```
 Install all dependencies with:
 
 ```bash
